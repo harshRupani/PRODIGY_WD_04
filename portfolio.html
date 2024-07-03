@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body onload="includeHTML()">
+    <div class="topnav" id="mytopnav">
+        <a href="../PRODIGY_WD_01/responsive_nav.html" class="active">Home</a>
+        <a href="../PRODIGY_WD_02/stopwatch.html">Stopwatch</a>
+        <a href="../PRODIGY_WD_03/tictac.html">Tic Tac Toe</a>
+        <a href="javascript:void(0);" class="icon" onclick="myfunc()"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <div class="bg">
+        <header id="pheader">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="home-section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="home-text">
+                        <h1>Hi there! I'm Harsh Rupani</h1>
+                        <p>A Creative web developer specializing in building dynamic and responsive websites.</p>
+                    </div>
+                    <img src="Harsh (2).jpg" alt="Profile Photo" id="profile-photo">
+                    <div id="modal" style="display: none;">
+                        <div id="modal-content">
+                            <span id="close-btn">&times;</span>
+                            <img src="Harsh (2).jpg" alt="Profile Photo" id="modal-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hi I'm <span>Harsh Rupani</span>. I am currently pursuing my 3rd year of B.Tech specialising in Computer Science Engineering.</p>
+                <p>I'm a dedicated student and a pragmatic leader interested in applying excellent communication and interpersonal skills. </p>
+                <br>
+                <ul>
+                    <li><strong>Education:</strong> H.S.C from St. Xavier's High School</li>
+                    <li><strong>Experience:</strong> Branch Representative at GFG BVM, Problem setter at CodeChef BVM, Intern at Prodigy InfoTech</li>
+                    <li><strong>Skills:</strong> C, C++, HTML, CSS, JavaScript, PHP, MySQL</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <h3>LANDING PAGE</h3>
+                        <p>Developed a landing page that includes a navigation bar and information about each task. This project aims to improve user experience by providing effortless navigation and a visually engaging design.</p>
+                        <a class="intern-project" href="responsive_nav.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>STOPWATCH</h3>
+                        <p>Created a digital stopwatch web app featuring Start, Pause, Reset, and Lap Record functionalities. This project intends to offer users an easy-to-use tool for accurate timekeeping and lap tracking.</p>
+                        <a class="intern-project" href="stopwatch.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>TIC-TAC-TOE</h3>
+                        <p>Created a Tic-Tac-Toe game web app where users can compete against each other or challenge an AI opponent. This project seeks to deliver an entertaining and interactive gaming experience for users.</p>
+                        <a class="intern-project" href="tictac.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>PORTFOLIO</h3>
+                        <p>My personal portfolio showcasing my skills, projects, and accomplishments in web development and design. This project aims to highlight my expertise and creativity while providing an interactive and visually appealing experience for visitors.</p>
+                        <a class="intern-project" href="portfolio.html">
+                            <input type="button" value="VIEW" name="view"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Please feel free to get in touch with me through any of the social platforms or via email.</p>
+                <a href="https://linkedin.com/in/harsh-rupani-87663a289" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/harshRupani"><i class="fa-brands fa-square-github"></i></a>
+                <p>Email:</p>
+                <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=DmwnWtMqhrSgKFwVVZhxMDbXzhzcgHwrrvfhsbwbmwRRZnzfwFDxGFgHvLBHSKBrzzFHmDGBJzKG" target="_blank">rupaniharsh759@gmail.com</a>
+            </div>
+        </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
